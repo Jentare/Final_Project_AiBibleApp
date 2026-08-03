@@ -2,14 +2,13 @@
 / CS85 PHP
 // FINAL PROJECT
 
-
 # Daily Bible Reading & AI Prayer Journal
 
 A full-stack Laravel application that provides daily scripture reading paired with an AI-powered prayer journal to help users reflect on daily passage readings.
 
 ---
 
-## Project Descriptio
+## Project Description
 This application allows users to follow a sequential daily Bible reading plan. It dynamically pulls scripture text using the **ESV API** and allows users to record personal prayer journal entries. Using the **OpenAI API**, the system analyzes the scripture context alongside the user's entry to generate personalized reflection insights and encouragement.
 
 ## Features
@@ -52,10 +51,7 @@ Run your database migrations and seeders using the artisan migrate --seed comman
 
 Start the local development server by running php artisan serve and access the application in your browser at http://127.0.0.1:8000.
 
-
-
-
-
+---
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
