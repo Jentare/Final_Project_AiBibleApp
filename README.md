@@ -1,3 +1,62 @@
+// Jennifer Frei
+/ CS85 PHP
+// FINAL PROJECT
+
+
+# Daily Bible Reading & AI Prayer Journal
+
+A full-stack Laravel application that provides daily scripture reading paired with an AI-powered prayer journal to help users reflect on daily passage readings.
+
+---
+
+## Project Descriptio
+This application allows users to follow a sequential daily Bible reading plan. It dynamically pulls scripture text using the **ESV API** and allows users to record personal prayer journal entries. Using the **OpenAI API**, the system analyzes the scripture context alongside the user's entry to generate personalized reflection insights and encouragement.
+
+## Features
+* **Sequential Daily Readings:** Route and database-driven tracking of daily readings by day number.
+* **Dynamic Scripture Retrieval:** Integration with the ESV API to automatically load passage text for each day's reading.
+* **AI Prayer Insight Generator:** Integration with OpenAI API to analyze user reflections against the daily passage text and generate meaningful insights.
+* **Form Validation & Error Handling:** Robust Laravel request validation and dynamic fallbacks for missing data or API responses.
+
+---
+
+## Tech Stack
+* **Framework:** Laravel 13
+* **Language:** PHP 8.4
+* **Database:** MySQL
+* **APIs:** OpenAI API, ESV Scripture API
+
+---
+
+## Setup Steps
+
+### Prerequisites
+* PHP >= 8.4
+* Composer
+* MySQL Database
+* OpenAI API Key
+* ESV API Key
+
+# Installation
+Clone the repository to your local machine using git clone followed by your repository URL, then navigate into the project directory.
+
+Install all PHP dependencies by running the composer install command in your terminal.
+
+Set up your environment variables by copying the .env.example file to create a new .env file.
+
+Configure your .env file by updating your database credentials (name, username, password) and adding your OPENAI_API_KEY and ESV_API_KEY values.
+
+Generate your application encryption key by running the artisan key:generate command.
+
+Run your database migrations and seeders using the artisan migrate --seed command to set up your database tables.
+
+Start the local development server by running php artisan serve and access the application in your browser at http://127.0.0.1:8000.
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
